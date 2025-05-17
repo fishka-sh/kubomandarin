@@ -1,0 +1,18 @@
+header {
+    background-image: url('../img/lake.jpg');
+    height: 29rem;
+    background-size: cover;
+}
+
+.sg-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media screen and (max-width: 600px) {
+    header{
+        height: 15rem;
+    }
+}
